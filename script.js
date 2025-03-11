@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded'),function(){
 diminuiFonteBotao.addEventListener('click',function(){
     tamanhoAtulFonte -=0,1;
     document.body.style.fontSize=`${tamanhoAtulFonte}rem`
-}
+
 })
 
 }
