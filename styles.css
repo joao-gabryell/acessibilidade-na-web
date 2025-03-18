@@ -150,5 +150,9 @@ h2 {
 .rotacao-botao{
 transform: rotate(-90dge);
 transform-origin: right center;
-
+}
+.opcoes-acessibilidade{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
 }
