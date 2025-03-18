@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded'),function(){
+document.addEventListener('DOMContentLoaded',function(){
     const aumentarfonteBotao=Document.getElementById('aumentar-fonte');
     const diminuiFonteBotao=Document.getElementById('diminuir-fonte');
 
