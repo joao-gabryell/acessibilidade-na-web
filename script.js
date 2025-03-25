@@ -5,7 +5,7 @@ const opcoesDeAcessibilidade=document.getElementById('botao-acessibilidade')
 botaoDeAcessibilidade.addEventListener('click',function(){
     botaoDeAcessibilidade.classList.toggle('rotacao-botao')
     opcoesDeAcessibilidade.classList.toggle('apresenta-lista')
-}
+})
 
 
     const aumentarfonteBotao=document.getElementById('aumentar-fonte');
