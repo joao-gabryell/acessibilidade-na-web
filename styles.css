@@ -3,6 +3,9 @@
 
 :root {
     --laranja-claro: #FF862A;
+    --auto-contraste-fundo: #000000;
+    --auto-contraste-texto: #FFFFFF;
+    --auto-contraste-link: #FFD700;
 }
 
 body {
@@ -163,4 +166,14 @@ transform-origin: right center;
 }
 .apresenta-lista{
     display: none;
+}
+.auto-contraste{
+background-color: var(--auto-contraste-fundo);
+color: var(--auto-contraste-texto);
+}
+.auto-contraste header,
+.auto-contraste footer,
+.auto-contraste .formulario{
+    background-color: var(--auto-contraste-fundo);
+    color: var(--auto-contraste-texto);
 }
