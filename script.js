@@ -6,6 +6,8 @@ const alternaContraste=document.getElementById('alterna-ccontraste')
 botaoDeAcessibilidade.addEventListener('click',function(){
     botaoDeAcessibilidade.classList.toggle('rotacao-botao')
     opcoesDeAcessibilidade.classList.toggle('apresenta-lista')
+    const botaoSelecionado=botaoDeAcessibilidade.getElementById('aria-expanded')==='true';
+    botaoDeAcessibilidade.setAttribute('aria-expanded',!botaoSelecionado)
 })
 
 
